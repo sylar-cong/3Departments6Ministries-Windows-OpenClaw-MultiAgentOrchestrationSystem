@@ -1,0 +1,116 @@
+{
+  "agents": [
+    {
+      "id": "taizi",
+      "name": "太子",
+      "role": "储君",
+      "emoji": "🤴",
+      "description": "任务分拣与调度中心，接收皇上旨意后分发给对应部门",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "zhongshu",
+      "name": "中书省",
+      "role": "中书令",
+      "emoji": "📜",
+      "description": "负责起草方案和政策文档",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "menxia",
+      "name": "门下省",
+      "role": "侍中",
+      "emoji": "🔍",
+      "description": "负责审议中书省提交的方案，准奏或封驳",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "shangshu",
+      "name": "尚书省",
+      "role": "尚书令",
+      "emoji": "📮",
+      "description": "负责将审批通过的任务派发给六部执行",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "libu",
+      "name": "礼部",
+      "role": "礼部尚书",
+      "emoji": "📝",
+      "description": "文稿撰写、文档相关任务",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "hubu",
+      "name": "户部",
+      "role": "户部尚书",
+      "emoji": "💰",
+      "description": "财务、数据分析相关任务",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "bingbu",
+      "name": "兵部",
+      "role": "兵部尚书",
+      "emoji": "⚔️",
+      "description": "系统运维、部署相关任务",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "xingbu",
+      "name": "刑部",
+      "role": "刑部尚书",
+      "emoji": "⚖️",
+      "description": "安全审查、代码审查相关任务",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "gongbu",
+      "name": "工部",
+      "role": "工部尚书",
+      "emoji": "🔧",
+      "description": "工程开发、技术实现相关任务",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "libu_hr",
+      "name": "吏部",
+      "role": "吏部尚书",
+      "emoji": "👔",
+      "description": "人员管理、任务分配相关",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    },
+    {
+      "id": "zaochao",
+      "name": "钦天监",
+      "role": "朝报官",
+      "emoji": "📰",
+      "description": "早报采集与新闻汇总",
+      "model": "gpt-4",
+      "channel": "feishu",
+      "skills": ["kanban_update"]
+    }
+  ],
+  "dispatchChannel": "feishu",
+  "version": "1.0.0"
+}
