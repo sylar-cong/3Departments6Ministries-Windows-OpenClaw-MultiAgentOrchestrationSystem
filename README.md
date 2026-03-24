@@ -62,12 +62,16 @@ edict/
 
 ---
 
-# 🚀 安装
+# ✨ 快速体验
 
+### 让龙虾帮你部署，直接把下面这句话发给你的龙虾：
+```
+请按照这个 SKILL.md 帮我完成 Star Office UI 的部署：
+https://github.com/mYoCaRdiA/3Departments6Ministries-Windows-OpenClaw-MultiAgentOrchestrationSystem/blob/main/SKILL.md
+```
 
-
-## 打开浏览器
-start http://127.0.0.1:7891
+### 打开浏览器
+登录 http://127.0.0.1:7891
 
 
 
