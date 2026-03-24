@@ -1,5 +1,5 @@
-<h1 align="center">⚔️ 三省六部 · Edict</h1>
-
+<h1 align="center">⚔️ 三省六部（Windows版）</h1>
+<h1 align="center">原仓库地址：https://github.com/cft0808/edict</h1>
 <p align="center">
   <strong>我用 1300 年前的帝国制度，重新设计了 AI 多 Agent 协作架构。<br>结果发现，古人比现代 AI 框架更懂分权制衡。</strong>
 </p>
