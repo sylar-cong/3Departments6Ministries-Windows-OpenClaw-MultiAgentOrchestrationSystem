@@ -1,6 +1,6 @@
 <h1 align="center">⚔️ 三省六部 · Windows</h1>
 <h1 align="center">原项目地址：https://github.com/cft0808/edict</h1>
-<h1 align="center">本仓库是在原仓库基础上改造的Windows版，如有侵权将立即删除！</h1>
+<h1 align="center">如有侵权将立即删除！</h1>
  
 ## 项目简介
 因原仓库仅支持MacOS/Linux系统，故在原仓库基础上改造Windows版，解决了所有Window兼容性问题。本仓库除这段话之外其他所有内容均由小米大模型MiMo-V2-Pro完成，截止3月24日累计消耗Token超142M。
