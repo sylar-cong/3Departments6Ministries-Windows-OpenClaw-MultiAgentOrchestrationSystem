@@ -65,7 +65,7 @@ def load_activity(session_file, limit=12):
         return []
     rows = []
     try:
-        lines = p.read_text(errors='ignore').splitlines()
+        lines = p.read_text(encoding='utf-8', errors='ignore').splitlines()
     except Exception:
         return []
 

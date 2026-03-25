@@ -1354,7 +1354,7 @@ def get_agent_activity(agent_id, limit=30, task_id=None):
 
     for session_file in files_to_scan:
         try:
-            lines = session_file.read_text(errors='ignore').splitlines()
+            lines = session_file.read_text(encoding="utf-8", errors='ignore').splitlines()
         except Exception:
             continue
 
@@ -1420,7 +1420,7 @@ def get_agent_activity_by_keywords(agent_id, keywords, limit=20):
     target_file = None
     for sf in jsonl_files[:5]:
         try:
-            content = sf.read_text(errors='ignore')
+            content = sf.read_text(encoding="utf-8", errors='ignore')
         except Exception:
             continue
         hits = sum(1 for kw in keywords if kw.lower() in content.lower())
@@ -1434,7 +1434,7 @@ def get_agent_activity_by_keywords(agent_id, keywords, limit=20):
     # 解析 session 文件，按 user 消息分割为对话段
     # 找到包含关键词的对话段，只返回该段的活动
     try:
-        lines = target_file.read_text(errors='ignore').splitlines()
+        lines = target_file.read_text(encoding="utf-8", errors='ignore').splitlines()
     except Exception:
         return []
 
@@ -1506,7 +1506,7 @@ def get_agent_latest_segment(agent_id, limit=20):
     # 读取最新的 session 文件
     target_file = jsonl_files[0]
     try:
-        lines = target_file.read_text(errors='ignore').splitlines()
+        lines = target_file.read_text(encoding="utf-8", errors='ignore').splitlines()
     except Exception:
         return []
 
@@ -2573,4 +2573,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 

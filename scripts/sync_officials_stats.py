@@ -107,7 +107,7 @@ def scan_agent(agent_id):
     if sf_key and data[sf_key].get('sessionFile'):
         sf = AGENTS_ROOT / agent_id / 'sessions' / pathlib.Path(data[sf_key]['sessionFile']).name
         try:
-            lines = sf.read_text(errors='ignore').splitlines()
+            lines = sf.read_text(encoding='utf-8', errors='ignore').splitlines()
             for ln in lines:
                 try:
                     e = json.loads(ln)
